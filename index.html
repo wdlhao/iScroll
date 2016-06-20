@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iScroll demo: simple</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<link href="./css/index.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="./js/iscroll.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</head>
+
+<body>
+<div id="header">
+    <a href="http://cubiq.org/iscroll">iScroll下拉刷新,上拉加载更多</a>
+</div>
+<div id="wrapper">
+	<div id="scroller">
+		<!--主要用做下拉刷新时图标和文字的显示-->
+		<div id="pullDown">
+			<span class="pullDownIcon"></span>
+			<span class="pullDownLabel"></span>
+		</div>
+
+		<ul id="thelist"></ul>
+
+		<div id="pullUp">
+			<span class="pullUpIcon"></span>
+			<span class="pullUpLabel"></span>
+		</div>
+	</div>
+</div>
+
+
+<div id="footer"></div>
+
+
+</body>
+</html>
